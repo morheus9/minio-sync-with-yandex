@@ -13,7 +13,7 @@ curl https://rclone.org/install.sh | sudo bash
 ```
 Настраиваем конфиг rsync для работы с хранилищами:
 ```
-vi ~/.config/rclone/rclone.conf
+nano ~/.config/rclone/rclone.conf
 ```
 ```
 [yandex-s3]
