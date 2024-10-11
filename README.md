@@ -2,7 +2,7 @@
 mkdir -p ~/minio/data
 docker-compose -f minio-compose.yml up -d
 ```
-Теперь MinIO Server доступен по адресу http://127.0.0.1:9000 на ВМ или http://<адрес ВМ>:9000.
+Теперь MinIO Server доступен по адресу http://127.0.0.1:9000
 
 - Создаём хранилище и добавляем в яндекс бакет объекты.
 - Создаём ключ для доступа к бакету. В бакете: Access Keys → Create Access Key. Сохраняем Access Key и Secret Key, они потребуются позже.
